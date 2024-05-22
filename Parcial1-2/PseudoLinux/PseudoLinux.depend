@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715706647 source:/home/atilam89/Documentos/Amerike/4oSemestre/ControlDeAcceso/ControlDeAcceso/Parcial1-2/PseudoLinux/main.cpp
+	<iostream>
+	<string>
+	<vector>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1716403266 source:/home/atilam89/Documentos/Amerike/4oSemestre/EstructurasDeComputadores/Curso C++/PseudoLinuxV3.2/main.cpp
+	<iostream>
+	<list>
+
