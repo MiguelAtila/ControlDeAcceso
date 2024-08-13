@@ -1,0 +1,53 @@
+clear
+    2  cd Escritorio
+    3  ls
+    4  cd ControlA
+    5  ls
+    6  touch text.file
+    7  ls
+    8  ls -l
+    9  echo "texto1" 
+   10  LS
+   11  ls
+   12  echo "texto2" > txt.file
+   13  ls -l
+   14  getfacl text.file
+   15  sudo groupadd Amerike
+   16  setfcl -m g:Amerike:rw txt.file
+   17  setfacl -m g:Amerike:rw txt.file
+   18  ls -l
+   19  nano ~/.zshrc\n
+   20  source ~/.zshrc\n
+   21  tail /etc/passwd\n
+   22  adduser -m Cesar
+   23  sudo adduser -m Cesar
+   24  sudo passwd Cesar
+   25  sudo adduser -m Tio
+   26  sudo passwd Tio
+   27  tail etc/passwd
+   28  tail /etc/passwd\n
+   29  whoami
+   30  getfacl txt.file
+   31  su Cesar
+   32  chmod o-r txt.file
+   33  su Cesar
+   34  sudo adduser Tio Amerike
+   35  setfacl -m g:Amerike:r txt.file
+   36  clear
+   37  ls
+   38  chmod o-r text.file
+   39  ls -l
+   40  getfacl text.file
+   41  setfacl -m u:Cesar:r txt.file
+   42  getfacl txt.file
+   43  su Cesar
+   44  su Tio
+   45  touch latex.file
+   46  ls -l
+   47  getfacl latex.file
+   48  su Cesar
+   49  history > file.txt
+   50  ls
+   51  cat file.txt
+   52  ls
+

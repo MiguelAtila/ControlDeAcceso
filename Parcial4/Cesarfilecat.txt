@@ -1,0 +1,18 @@
+  1  ls -l
+    2  cat txt.file 
+    3  exit
+    4  cat text.file 
+    5  cat txt.file 
+    6  exit
+    7  cat img.file
+    8  ls
+    9  getfacl txt.file 
+   10  exit
+   11  ls -l
+   12  cat txt.file 
+   13  su atilam89
+   14  history > text2.txt
+   15  sudo history > text2.txt
+   16  exit
+   17  history
+

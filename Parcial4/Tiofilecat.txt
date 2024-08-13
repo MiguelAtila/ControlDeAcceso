@@ -1,0 +1,9 @@
+  1  cat text.file 
+    2  cat txt.file 
+    3  ls -l
+    4  getfacl text.file 
+    5  getfacl txt.file 
+    6  exit
+    7  sudo history > text3.txt
+    8  history
+

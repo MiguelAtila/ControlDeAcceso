@@ -1,0 +1,137 @@
+1  grep ACL /boot/config-$(uname -r)
+  212  zgrep ACL /proc/config.gz
+  213  sudo zgrep ACL /proc/config.gz
+  214  ls /proc
+  215  clear
+  216  grep ACL /boot/config-$(uname -r)
+  217  uname -r
+  218  tuneZfs -l
+  219  tuneZfs
+  220  tune2fs
+  221  tune2fs -l /dev/sda1 | grep option
+  222  mount
+  223  sudo fdisk -l
+  224  tune2fs -l /dev/nvme0n1p3 | grep option
+  225  sudo tune2fs -l /dev/nvme0n1p3 | grep option
+  226  sudo tune2fs -l /dev/nvme0n1 | grep option
+  227  sudo tune2fs -l /dev/nvme0n1p3 | grep options
+  228  sudo tune2fs -l /dev/nvme0n1p2 | grep option
+  229  sudo tune2fs -l /dev/nvme0n1p3 | grep options
+  230  getfacl
+  231  sudo dnf upgrade
+  232  tail /etc/paswd
+  233  clear
+  234  sudo tune2fs -l /dev/nvme0n1p3 | grep options
+  235  sudo tune2fs -l /dev/nvme0n1p2 | grep options
+  236  sudo tune2fs -l /dev/nvme0n1p2
+  237  mount
+  238  ls
+  239  cd Documentos
+  240  ls
+  241  ls -l
+  242  ls
+  243  cd
+  244  ls 
+  245  cd Escritorio
+  246  ls
+  247  cd ControlA
+  248  ls
+  249  ls -l
+  250  getfacl txt.file
+  251  setfacl -m u:Cesar:rwx txt.file
+  252  getfacl txt.file
+  253  setfacl -m m::r-- txt.file
+  254  getfacl txt.file
+  255  setfacl -m o::rw- txt.file
+  256  getfacl txt.file
+  257  setfacl -m m::r-- txt.file
+  258  getfacl txt.file
+  259  setfacl -m m::--- txt.file
+  260  getfacl txt.file
+  261  setfacl -x u:Cesar txt.file
+  262  getfacl txt.file
+  263  su Cesar
+  264  setfacl -m o::---
+  265  setfacl -m o::--- txt.file
+  266  su Cesar
+  267  setfacl -m u:Cesar:r-- txt.file
+  268  getfacl txt.file
+  269  su Cesar
+  270* ls
+  271* cd /
+  272* ls
+  273* cd root
+  274* sudo cd root
+  275* ls
+  276* cd root
+  277* sudo cd root
+  278* cd
+  279* ls
+  280* clear
+  281* ls
+  282* cd ./
+  283* ls
+  284* cd /
+  285* ls
+  286* sudo cd root
+  287* ls
+  288* cd b
+  289* cd boot
+  290* ls
+  291* cd ..
+  292* sudo cd root
+  293* ls
+  294* sudo su
+  295* ls
+  296  setfacl -b txt.file
+  297  getfacl txt.file
+  298  ls -l
+  299  history
+  300  clear
+  301  ls
+  302  mkdir artek
+  303  ls -l
+  304  setfacl -dm g:Amerike:r-- artek
+  305  getfacl artek
+  306  setfacl -dm g::r-- artek
+  307  getfacl artek
+  308  setfacl -dm o::r-- artek
+  309  getfacl artek
+  310  setfacl -dm u:Binder:rw- 
+  311  setfacl -m u:Binder:rw- 
+  312  setfacl -m u:Binder:rw- artek
+  313  ls
+  314  setfacl -dm u:Binder;rw- artek
+  315  setfacl -dm u:Binder:rw- artek
+  316  cat /etc/passwd
+  317  setfacl -dm u:Tio:rw- artek
+  318  getfacl artek
+  319  setfacl o::--- artek
+  320  setfacl -m o::--- artek
+  321  getfacl artek
+  322  setfacl -m o::r-x
+  323  setfacl -m o::r-x artek
+  324  setfacl -dm o::r-- artek
+  325  getfacl artek
+  326  setfacl -dm o::--- artek
+  327  getfacl artek
+  328  cd artek
+  329  ls
+  330  touch archivo1.txt
+  331  ls -l
+  332  getfacl archivo1.txt
+  333  su Tio
+  334  sl
+  335  pwd
+  336  groups Amerike
+  337  groups Tio
+  338  sudo adduser Tio Amerike
+  339  usermod -aG Amerike Tio
+  340  sudo usermod -aG Amerike Tio
+  341  groups Tio
+  342  su Tio
+  343  setfacl -x u:Tio
+  344  setfacl -x u:Tio archivo1.txt
+  345  getfacl archivo1.txt
+  346  clear
+
